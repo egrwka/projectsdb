@@ -1,0 +1,14 @@
+C:\Users\opilane\source\repos\projectsdb\projectsdb\bin\Debug\projectsdb.exe.config
+C:\Users\opilane\source\repos\projectsdb\projectsdb\bin\Debug\projectsdb.exe
+C:\Users\opilane\source\repos\projectsdb\projectsdb\bin\Debug\projectsdb.pdb
+C:\Users\opilane\source\repos\projectsdb\projectsdb\obj\Debug\projectsdb.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\projectsdb\projectsdb\obj\Debug\projectsdb.Form1.resources
+C:\Users\opilane\source\repos\projectsdb\projectsdb\obj\Debug\projectsdb.Properties.Resources.resources
+C:\Users\opilane\source\repos\projectsdb\projectsdb\obj\Debug\projectsdb.csproj.GenerateResource.cache
+C:\Users\opilane\source\repos\projectsdb\projectsdb\obj\Debug\projectsdb.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\projectsdb\projectsdb\obj\Debug\projectsdb.exe
+C:\Users\opilane\source\repos\projectsdb\projectsdb\obj\Debug\projectsdb.pdb
+C:\Users\opilane\source\repos\projectsdb\projectsdb\bin\Debug\Products.mdf
+C:\Users\opilane\source\repos\projectsdb\projectsdb\bin\Debug\Products_log.ldf
+C:\Users\opilane\source\repos\projectsdb\projectsdb\bin\Debug\Dostavka.mdf
+C:\Users\opilane\source\repos\projectsdb\projectsdb\bin\Debug\Dostavka_log.ldf
