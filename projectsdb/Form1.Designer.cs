@@ -57,13 +57,11 @@
             this.dostavkaDataSet = new projectsdb.DostavkaDataSet();
             this.tblFirmasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tbl_FirmasTableAdapter = new projectsdb.DostavkaDataSetTableAdapters.tbl_FirmasTableAdapter();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblProductsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productsDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dostavkaDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblFirmasBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -110,7 +108,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(134, 21);
             this.comboBox1.TabIndex = 3;
-            this.comboBox1.SelectedValueChanged += new System.EventHandler(this.comboBox1_SelectedValueChanged);
             // 
             // dataGridView1
             // 
@@ -347,16 +344,6 @@
             // 
             this.tbl_FirmasTableAdapter.ClearBeforeFill = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(719, 21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(249, 160);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -364,7 +351,6 @@
             this.BackgroundImage = global::projectsdb.Properties.Resources.fondo_humo_color_71163_197;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(980, 593);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label7);
@@ -395,7 +381,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.productsDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dostavkaDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblFirmasBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -430,7 +415,6 @@
         private DostavkaDataSet dostavkaDataSet;
         private System.Windows.Forms.BindingSource tblFirmasBindingSource;
         private DostavkaDataSetTableAdapters.tbl_FirmasTableAdapter tbl_FirmasTableAdapter;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

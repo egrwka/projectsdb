@@ -25,25 +25,6 @@ namespace projectsdb
             InitializeComponent();
 
         }
-        public class Products
-        {
-            public string Name { get; set; }
-            public string ImagePath { get; set; }
-
-            public override string ToString()
-            {
-                return Name;
-            }
-        }
-        public void comboBox1_SelectedValueChanged(object sender, EventArgs e)
-        {
-            var list = new List<Products>();
-            list.Add(new Products() { Name = "Вода", ImagePath = @"C:\Users\opilane\source\repos\projectsdb\projectsdb\Resources\img\water.jpg" });
-            list.Add(new Products() { Name = "Сок", ImagePath = @"C:\Users\opilane\source\repos\projectsdb\projectsdb\Resources\img\juice.jpg" });
-            comboBox1.DataSource = list;
-            pictureBox1.ImageLocation = (comboBox1.SelectedItem as Products).ImagePath;
-        }
-
 
         private void Button1_Click(object sender, EventArgs e)
         {
